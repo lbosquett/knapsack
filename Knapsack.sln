@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{901B4DD2-5649-4ACE-A6D3-0975052DA1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{33FBA601-9D44-452B-9578-3836D17BBD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack.Test", "Knapsack.Test\Knapsack.Test.csproj", "{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{6FA7A31B-5D40-430B-9704-07E2BE269894}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	readme.md = readme.md
+	LICENSE = LICENSE
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5} = {901B4DD2-5649-4ACE-A6D3-0975052DA1F1}
+		{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93} = {33FBA601-9D44-452B-9578-3836D17BBD8A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C44352A-FB3E-45FB-9DDF-2C7B0C4F74B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAEF9AB-7851-43F4-8CA3-AAA10FAFAA93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
